@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "Help Kit extenstion to the Smooch SDK that includes self-help through search and recommendations."
   s.description  = "Smooch adds beautifully simple messaging to your app to keep your users engaged and coming back."
   s.homepage     = "https://smooch.io"
-  s.license      = "MIT"
+  s.license      = { :type => "Commercial", :text => "Smooch Technologies Inc.  All rights reserved." }
   s.author       = { "Smooch Technologies Inc." => "hello@smooch.io" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/smooch/smooch-helpkit.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/smooch/smooch-helpkit-ios.git", :tag => "1.0.0" }
   s.source_files = "SmoochHelpKit/Source/**/*.{h,m}"
   s.resources    = "SmoochHelpKit/SHKResources.bundle"
   s.frameworks   = "SystemConfiguration", "UIKit", "Foundation", "OpenGLES", "QuartzCore", "CoreText"
