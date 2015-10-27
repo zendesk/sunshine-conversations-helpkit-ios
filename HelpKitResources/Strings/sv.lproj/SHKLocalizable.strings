@@ -1,0 +1,48 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "Sök %@ hjälp";
+
+/* Nav bar left button */
+"Close" = "Stäng";
+
+/* Nav bar right button */
+"Cancel" = "Avbryt";
+
+/* Messages button title */
+"Messages" = "Meddelanden";
+
+/* Recommendation title */
+"Recommended For You" = "Rekommenderas för dig";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "Kan inte visa sökresultat";
+
+/* Error displayed in the search result table view */
+"No results found." = "Inget resultat funnet.";
+
+/* Button label for the no network message in web view */
+"Reload" = "Ladda om";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "Kan inte visa sidan eftersom du ej är ansluten till Internet.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "Tips";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "Svep ned med två fingrar för hjälp, var som helst ifrån. Prova ovan.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "Skippa";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "Fel";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "OK";

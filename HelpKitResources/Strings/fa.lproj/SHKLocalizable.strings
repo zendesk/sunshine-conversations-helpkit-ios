@@ -1,0 +1,51 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "جستجو در راهنمای %@";
+
+/* Nav bar left button */
+"Close" = "بستن";
+
+/* Nav bar right button */
+"Cancel" = "لغو";
+
+/* Messages button title */
+"Messages" = "چت";
+
+/* Recommendation title */
+"Recommended For You" = "برای شما پیشنهاد شده است";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "امکان بازگردانی نتایج جستجو وجود ندارد";
+
+/* Error displayed in the search result table view */
+"No results found." = "هیچ نتیجه‌ای در بر نداشت.";
+
+/* Button label for the no network message in web view */
+"Reload" = "بارگیری مجدد";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "امکان باز کردن صفحه وجود ندارد، زیرا دستگاه شما به اینترنت متصل نیست.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "راهنمای سریع";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "برای دریافت راهنمایی از هرجا، دو انگشت خود را روی صفحه به پایین بکشید. این کار را در بالا امتحان کنید.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "پرش";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "خطا";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "تأیید";
+
+/* Conversation send button */
+"Send" = "ارسال";

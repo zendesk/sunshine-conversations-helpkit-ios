@@ -1,0 +1,48 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "Search %@ Help";
+
+/* Nav bar left button */
+"Close" = "Close";
+
+/* Nav bar right button, action sheet cancel button */
+"Cancel" = "Cancel";
+
+/* Messages button title */
+"Messages" = "Messages";
+
+/* Recommendation title */
+"Recommended For You" = "Recommended For You";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "Cannot return search results";
+
+/* Error displayed in the search result table view */
+"No results found." = "No results found.";
+
+/* Button label for the no network message in web view */
+"Reload" = "Reload";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "Cannot open the page because your device is not connected to the Internet.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "Quick Tip";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "Swipe down with two fingers to get help from anywhere. Try it above.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "Skip";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "Error";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "Okay";

@@ -1,0 +1,48 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "%@ ヘルプを検索";
+
+/* Nav bar left button */
+"Close" = "閉じる";
+
+/* Nav bar right button */
+"Cancel" = "キャンセル";
+
+/* Messages button title */
+"Messages" = "チャット";
+
+/* Recommendation title */
+"Recommended For You" = "あなたへのオススメ";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "検索結果を取得できませんでした";
+
+/* Error displayed in the search result table view */
+"No results found." = "該当する結果がありませんでした。";
+
+/* Button label for the no network message in web view */
+"Reload" = "更新";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "お手持ちのデバイスがインターネットに接続していないため、ページを開けませんでした。";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "クイックヒント";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "指 2 本で下方向へスワイプすると、どの画面からでもヘルプを開けます。さっそく試してみましょう。";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "スキップ";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "エラー";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "OK";

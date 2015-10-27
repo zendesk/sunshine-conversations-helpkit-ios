@@ -1,0 +1,48 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "بحث في مساعدة %@";
+
+/* Nav bar left button */
+"Close" = "إغلاق";
+
+/* Nav bar right button */
+"Cancel" = "إلغاء";
+
+/* Messages button title */
+"Messages" = "الدردشة";
+
+/* Recommendation title */
+"Recommended For You" = "موصَى به لأجلك";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "تعذَّرت إعادة نتائج البحث";
+
+/* Error displayed in the search result table view */
+"No results found." = "لم يتم العثور على نتائج.";
+
+/* Button label for the no network message in web view */
+"Reload" = "إعادة تحميل";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "تعذَّر فتح الصفحة لأن جهازك غير متصل بالإنترنت.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "تلميحة سريعة";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "امسح إلى أسفل بإصبعين للحصول على المساعدة من أي مكان. جربها بأعلاه.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "تخطي";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "خطأ";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "موافق";

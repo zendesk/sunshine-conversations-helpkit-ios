@@ -1,0 +1,48 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "Etsi %@ Apua";
+
+/* Nav bar left button */
+"Close" = "Sulje";
+
+/* Nav bar right button */
+"Cancel" = "Peruuta";
+
+/* Messages button title */
+"Messages" = "Viestit";
+
+/* Recommendation title */
+"Recommended For You" = "Suositeltu Sinulle";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "Hakutuloksia ei voitu näyttää";
+
+/* Error displayed in the search result table view */
+"No results found." = "Ei tuloksia.";
+
+/* Button label for the no network message in web view */
+"Reload" = "Lataa uudelleen";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "Sivua ei voitu avata koska laitteesi ei ole yhteydessä Internetiin.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "Vihje";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "Pyyhkäise alaspäin kahdella sormella saadaksesi apua mistä vain. Kokeile tätä yläpuolella.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "Ohita";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "Virhe";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "Selvä";
