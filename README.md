@@ -2,6 +2,8 @@
 
 The Smooch Help Kit library is an extension to the capabilities of the [Smooch iOS SDK](https://github.com/smooch/smooch-ios). This library adds self-help functionality, as well as an app-wide gesture to access help from anywhere in the app.
 
+![Screenshot](https://raw.githubusercontent.com/smooch/smooch-helpkit-ios/master/helpkit-demo.gif)
+
 # Usage
 
 ## Installation Using Cocoapods
