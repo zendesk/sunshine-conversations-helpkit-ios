@@ -8,7 +8,7 @@ The Smooch Help Kit library is an extension to the capabilities of the [Smooch i
 
 Add `pod SmoochHelpKit` to your Podfile, and run `pod install`
 
-*NOTE* `SmoochHelpKit` registers `Smooch` as a dependent pod, so if you are already using the `Smooch` pod, you may replace it with this one.
+*Note:* `SmoochHelpKit` registers `Smooch` as a dependent pod, so if you are already using the `Smooch` pod, you may replace it with this one.
 
 ## Installation Without Cocoapods
 
@@ -32,6 +32,8 @@ Sign up and get an app token at [app.smooch.io](https://app.smooch.io). Then, in
 SHKSettings* settings = [SHKSettings settingsWithAppToken:@"YOUR_APP_TOKEN"];
 [SmoochHelpKit initWithSettings:settings];
 ```
+
+*Note:* `SHKSettings` derives from `SKTSettings`, and calling `[SmoochHelpKit initWithSettings:]` will automatically call through to `[Smooch initWithSettings:]`. There is no need to call `+initWithSettings:` on both classes.
 
 To show the UI:
 
