@@ -42,11 +42,11 @@ NSString* const KnowledgeBaseURL = @"https://support.zendesk.com";
     [SmoochHelpKit initWithSettings:settings];
     
     [SmoochHelpKit setDefaultRecommendations:@[
-                                            @"https://github.com/radialpoint/SupportKit",
+                                            @"https://github.com/smooch/smooch-helpkit-ios",
                                             @"https://www.apple.com"
                                             ]];
     
-    [SmoochHelpKit setTopRecommendation:@"https://supportkit.io"];
+    [SmoochHelpKit setTopRecommendation:@"https://smooch.io"];
     
     return YES;
 }

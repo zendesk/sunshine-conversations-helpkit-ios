@@ -32,11 +32,11 @@
     [button setTitle:@"Show+Hint" forState:UIControlStateNormal];
     button.backgroundColor = [UIColor blackColor];
     [self.view addSubview:button];
-        
+    
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
-        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test10"]];
+        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ios_1"]];
     }else{
-        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test1_ipad"]];
+        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ipad_1"]];
     }
     self.imageView.frame = self.view.bounds;
     [self.view addSubview:self.imageView];
@@ -61,7 +61,6 @@
     [SmoochHelpKit showWithGestureHint];
 }
 
-
 -(void)onSwipe:(UISwipeGestureRecognizer*)swipe
 {
     if(swipe.direction == UISwipeGestureRecognizerDirectionLeft){
@@ -75,7 +74,7 @@
 {
     self.backgroundIndex--;
     if(self.backgroundIndex == -1){
-        self.backgroundIndex = 11;
+        self.backgroundIndex = 2;
     }
     
     [self updateImage];
@@ -83,7 +82,7 @@
 
 -(void)nextBackground
 {
-    self.backgroundIndex = (self.backgroundIndex + 1) % 12;
+    self.backgroundIndex = (self.backgroundIndex + 1) % 3;
     [self updateImage];
 }
 
@@ -92,40 +91,13 @@
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
         switch (self.backgroundIndex) {
             case 0:
-                [self.imageView setImage:[UIImage imageNamed:@"etsy"]];
+                [self.imageView setImage:[UIImage imageNamed:@"ios_1"]];
                 break;
             case 1:
-                [self.imageView setImage:[UIImage imageNamed:@"test1"]];
+                [self.imageView setImage:[UIImage imageNamed:@"ios_2"]];
                 break;
             case 2:
-                [self.imageView setImage:[UIImage imageNamed:@"test2"]];
-                break;
-            case 3:
-                [self.imageView setImage:[UIImage imageNamed:@"test3"]];
-                break;
-            case 4:
-                [self.imageView setImage:[UIImage imageNamed:@"test4"]];
-                break;
-            case 5:
-                [self.imageView setImage:[UIImage imageNamed:@"test5"]];
-                break;
-            case 6:
-                [self.imageView setImage:[UIImage imageNamed:@"test6"]];
-                break;
-            case 7:
-                [self.imageView setImage:[UIImage imageNamed:@"test7"]];
-                break;
-            case 8:
-                [self.imageView setImage:[UIImage imageNamed:@"test8"]];
-                break;
-            case 9:
-                [self.imageView setImage:[UIImage imageNamed:@"test9"]];
-                break;
-            case 10:
-                [self.imageView setImage:[UIImage imageNamed:@"test10"]];
-                break;
-            case 11:
-                [self.imageView setImage:[UIImage imageNamed:@"test11"]];
+                [self.imageView setImage:[UIImage imageNamed:@"ios_3"]];
                 break;
             default:
                 break;
@@ -133,34 +105,13 @@
     }else{
         switch (self.backgroundIndex) {
             case 0:
-                [self.imageView setImage:[UIImage imageNamed:@"test1_ipad"]];
+                [self.imageView setImage:[UIImage imageNamed:@"ipad_1"]];
                 break;
             case 1:
-                [self.imageView setImage:[UIImage imageNamed:@"test2_ipad"]];
+                [self.imageView setImage:[UIImage imageNamed:@"ipad_2"]];
                 break;
             case 2:
-                [self.imageView setImage:[UIImage imageNamed:@"test3_ipad"]];
-                break;
-            case 3:
-                [self.imageView setImage:[UIImage imageNamed:@"test4_ipad"]];
-                break;
-            case 4:
-                [self.imageView setImage:[UIImage imageNamed:@"test5_ipad"]];
-                break;
-            case 5:
-                [self.imageView setImage:[UIImage imageNamed:@"test6_ipad"]];
-                break;
-            case 6:
-                [self.imageView setImage:[UIImage imageNamed:@"test7_ipad"]];
-                break;
-            case 7:
-                [self.imageView setImage:[UIImage imageNamed:@"test8_ipad"]];
-                break;
-            case 8:
-                [self.imageView setImage:[UIImage imageNamed:@"test9_ipad"]];
-                break;
-            case 9:
-                [self.imageView setImage:[UIImage imageNamed:@"test10_ipad"]];
+                [self.imageView setImage:[UIImage imageNamed:@"ipad_3"]];
                 break;
             default:
                 break;
