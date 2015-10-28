@@ -28,7 +28,9 @@ Add `pod SmoochHelpKit` to your Podfile, and run `pod install`
 
 Sign up and get an app token at [app.smooch.io](https://app.smooch.io). Then, in `application:didFinishLaunchingWithOptions:`
 
-```objective_c
+```objc
+#import "SmoochHelpKit.h"
+
 SHKSettings* settings = [SHKSettings settingsWithAppToken:@"YOUR_APP_TOKEN"];
 [SmoochHelpKit initWithSettings:settings];
 ```
@@ -37,7 +39,7 @@ SHKSettings* settings = [SHKSettings settingsWithAppToken:@"YOUR_APP_TOKEN"];
 
 To show the UI:
 
-```objective_c
+```objc
 [SmoochHelpKit show];
 ```
 
