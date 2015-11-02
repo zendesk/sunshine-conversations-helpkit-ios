@@ -10,7 +10,7 @@ Check out the [wiki](https://github.com/smooch/smooch-helpkit-ios/wiki) for desc
 
 ## Installation Using Cocoapods
 
-Cocoapods is current not supported
+Cocoapods is currently not supported
 
 ## Installation Without Cocoapods
 
