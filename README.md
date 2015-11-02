@@ -10,9 +10,7 @@ Check out the [wiki](https://github.com/smooch/smooch-helpkit-ios/wiki) for desc
 
 ## Installation Using Cocoapods
 
-Add `pod SmoochHelpKit` to your Podfile, and run `pod install`
-
-*Note:* `SmoochHelpKit` registers `Smooch` as a dependent pod, so if you are already using the `Smooch` pod, you may replace it with this one.
+Cocoapods is current not supported
 
 ## Installation Without Cocoapods
 
