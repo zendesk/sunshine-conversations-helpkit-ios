@@ -31,6 +31,7 @@ Add `pod SmoochHelpKit` to your Podfile, and run `pod install`
   * QuartzCore.framework
   * CoreText.framework
 5. Add the `-lxml2` flag to your app’s `Other Linker Flags` build setting.
+6. Add the line `$(SDKROOT)/usr/include/libxml2` to your app's `Header Search Paths` build setting.
 
 ## Initializing the SDK
 
