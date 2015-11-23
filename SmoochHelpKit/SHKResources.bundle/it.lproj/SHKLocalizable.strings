@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cancel</key>
+	<string>Annulla</string>
+	<key>Cannot open the page because your device is not connected to the Internet.</key>
+	<string>Impossibile aprire la pagina perché il dispositivo non è connesso a Internet.</string>
+	<key>Cannot return search results</key>
+	<string>Non è possibile restituire i risultati della ricerca</string>
+	<key>Close</key>
+	<string>Chiudi</string>
+	<key>Error</key>
+	<string>Errore</string>
+	<key>Messages</key>
+	<string>Messaggi</string>
+	<key>No results found.</key>
+	<string>Nessun risultato trovato.</string>
+	<key>Okay</key>
+	<string>Okay</string>
+	<key>Quick Tip</key>
+	<string> Suggerimento rapido </string>
+	<key>Recommended For You</key>
+	<string>Consigliato per te</string>
+	<key>Reload</key>
+	<string>Ricarica</string>
+	<key>Search %@ Help</key>
+	<string>Cerca %@ Aiuto</string>
+	<key>Skip</key>
+	<string>Salta</string>
+	<key>Swipe down with two fingers to get help from anywhere. Try it above.</key>
+	<string> Scorri verso il basso con due dita per ottenere aiuto ovunque. Provalo sopra.</string>
+</dict>
+</plist>
