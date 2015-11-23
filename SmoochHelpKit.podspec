@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "SmoochHelpKit"
-  s.version               = "1.0.1"
+  s.version               = "1.0.2"
   s.summary               = "Help Kit extension to the Smooch SDK"
   s.description           = "Smooch adds beautifully simple messaging to your app to keep your users engaged and coming back. Help Kit adds self-help through search and recommendations, as well as an app-wide gesture to get help from anywhere."
   s.homepage              = "https://smooch.io"

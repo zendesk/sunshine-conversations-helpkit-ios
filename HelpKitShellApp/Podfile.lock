@@ -1,0 +1,10 @@
+PODS:
+  - Smooch (3.1.0)
+
+DEPENDENCIES:
+  - Smooch
+
+SPEC CHECKSUMS:
+  Smooch: 9dc8200853f25eeae2d770e6c3d7d1e11ea04d9d
+
+COCOAPODS: 0.39.0
