@@ -1,0 +1,48 @@
+/*
+ SHKLocalizable.strings
+ Smooch
+ 
+ Copyright (c) 2015 Smooch Technologies. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "%@ 검색 도움말";
+
+/* Nav bar left button */
+"Close" = "닫기";
+
+/* Nav bar right button, action sheet cancel button */
+"Cancel" = "취소";
+
+/* Messages button title */
+"Messages" = "메시지";
+
+/* Recommendation title */
+"Recommended For You" = "추천";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "검색 결과를 반환할 수 없습니다";
+
+/* Error displayed in the search result table view */
+"No results found." = "결과가 없습니다.";
+
+/* Button label for the no network message in web view */
+"Reload" = "다시 로드";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "인터넷에 연결되어 있지 않기 때문에 페이지를 열 수 없습니다.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "빠른 팁";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "두 손가락으로 쓸어내려 어디서든지 도움을 받으세요. 위를 사용해 보세요.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "건너뛰기";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "오류";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "Okay";
