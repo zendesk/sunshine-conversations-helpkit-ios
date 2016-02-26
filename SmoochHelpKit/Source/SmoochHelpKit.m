@@ -24,6 +24,7 @@ static SHKWindow* backgroundWindow;
 static SHKRecommendations* recommendations;
 static BOOL delaySmoochInit = NO;
 static BOOL appDidFinishLaunching = NO;
+static BOOL messageButtonShown = YES;
 static SHKSettings* settings;
 
 const int SHKBadKnowledgeBaseUrlErrorCode = 100;
@@ -147,6 +148,8 @@ static NSString* const kSmoochWasLaunched = @"SKTSupportKitWasLaunched";
     // Hidden = NO to load the view controllers, then hide back the window
     overlayWindow.hidden = NO;
     overlayWindow.hidden = YES;
+    
+    navigationController.messagesButton.hidden = !messageButtonShown;
 }
 
 +(BOOL)isPreparedToShow
@@ -257,7 +260,7 @@ static NSString* const kSmoochWasLaunched = @"SKTSupportKitWasLaunched";
     static NSBundle* frameworkBundle = nil;
     static dispatch_once_t predicate;
     dispatch_once(&predicate, ^{
-        NSString* mainBundlePath = [[NSBundle mainBundle] resourcePath];
+        NSString* mainBundlePath = [[NSBundle bundleForClass:[self class]] resourcePath];
         NSString* frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"SHKResources.bundle"];
         frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
     });
@@ -333,6 +336,12 @@ static NSString* const kSmoochWasLaunched = @"SKTSupportKitWasLaunched";
         recommendations = [SHKRecommendations new];
     }
     return recommendations;
+}
+
++(void)setMessagesButtonShown:(BOOL)shown
+{
+    messageButtonShown = shown;
+    navigationController.messagesButton.hidden = !shown;
 }
 
 @end

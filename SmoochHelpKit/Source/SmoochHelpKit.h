@@ -96,4 +96,9 @@
  */
 +(void)setTopRecommendation:(NSString*)urlString;
 
+/**
+ *  @abstract Sets whether to show or hide the Messages button.
+ */
++(void)setMessagesButtonShown:(BOOL)shown;
+
 @end

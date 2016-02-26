@@ -1,0 +1,4 @@
+module libxml [system] {
+    header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope‌​r/SDKs/iPhoneOS.sdk/usr/include/libxml2/libxml/HTMLparser.h"
+    export *
+}

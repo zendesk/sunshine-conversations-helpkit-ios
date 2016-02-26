@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <libxml/HTMLparser.h>
+#include <libxml/HTMLparser.h>
 #import "SHKHTMLParser.h"
 
 @class SHKHTMLParser;
