@@ -21,8 +21,7 @@
 
 +(instancetype)settingsWithAppToken:(NSString*)appToken
 {
-    SHKSettings* settings = [[SHKSettings alloc] init];
-    settings.appToken = appToken;
+    SHKSettings* settings = [SHKSettings settingsWithAppToken:appToken];
     return settings;
 }
 
