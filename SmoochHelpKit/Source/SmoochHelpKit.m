@@ -48,9 +48,9 @@ static NSString* const kSmoochWasLaunched = @"SKTSupportKitWasLaunched";
         NSLog(@"<Smooch: ERROR> Init called more than once, aborting init sequence!");
     }else{
         settings = newSettings;
-        
-        [Smooch initWithSettings:settings];
-        
+
+        [Smooch initWithSettings:settings completionHandler:NULL];
+
         if (appDidFinishLaunching) {
             [self completeInit];
         }else{

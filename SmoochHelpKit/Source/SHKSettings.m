@@ -19,10 +19,10 @@
 
 @implementation SHKSettings
 
-+(instancetype)settingsWithAppToken:(NSString*)appToken
++(instancetype)settingsWithAppId:(NSString*)appId
 {
     SHKSettings* settings = [[SHKSettings alloc] init];
-    settings.appToken = appToken;
+    settings.appId = appId;
     return settings;
 }
 
@@ -45,13 +45,13 @@
     NSMutableArray* result = [NSMutableArray new];
     for(id object in ids){
         NSNumber* objectId = nil;
-        
+
         if([object isKindOfClass:[NSString class]]){
             objectId = @([object integerValue]);
         }else if([object isKindOfClass:[NSNumber class]]){
             objectId = object;
         }
-        
+
         if(objectId != nil && [objectId integerValue] > 0){
             [result addObject:objectId];
         }else{
@@ -67,27 +67,27 @@
         NSLog(@"<Smooch: ERROR> Search results filtering may only be configured once, and should be done at init time. New filtering options will be ignored");
         return;
     }
-    
+
     if(filterMode == SHKSearchResultIsIn || filterMode == SHKSearchResultIsNotIn){
         self.filterMode = filterMode;
     }else{
         NSLog(@"<Smooch: ERROR> Invalid search results filter mode - no filtering will be applied.");
         return;
     }
-    
+
     if(categories.count == 0 && sections.count == 0){
         NSLog(@"<Smooch: WARNING> Category and sections arrays empty - no filtering will be applied.");
         return;
     }
-    
+
     NSArray* refinedCategories = [self refineIdArray:categories];
     NSArray* refinedSections = [self refineIdArray:sections];
-    
+
     if(refinedCategories.count == 0 && refinedSections.count == 0){
         NSLog(@"<Smooch: ERROR> No valid section or category ids were given - no filtering will be applied.");
         return;
     }
-    
+
     self.categoriesToFilter = refinedCategories;
     self.sectionsToFilter = refinedSections;
 }

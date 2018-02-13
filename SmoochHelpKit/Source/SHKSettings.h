@@ -28,11 +28,11 @@ typedef NS_ENUM(NSUInteger, SHKSearchResultsFilterMode) {
 @interface SHKSettings : SKTSettings
 
 /**
- *  @abstract Initializes a settings object with the given app token.
+ *  @abstract Initializes a settings object with the given app ID.
  *
- *  @param appToken A valid app token retrieved from the Smooch web portal.
+ *  @param appId A valid app ID retrieved from the Smooch web portal.
  */
-+(instancetype)settingsWithAppToken:(NSString*)appToken;
++(instancetype)settingsWithAppId:(NSString*)appId;
 
 /**
  *  @abstract Sets the filtering policy applied to user search results based on the given filter mode.
