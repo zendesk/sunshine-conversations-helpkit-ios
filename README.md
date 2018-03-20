@@ -35,12 +35,12 @@ Add `pod SmoochHelpKit` to your Podfile, and run `pod install`
 
 ## Initializing the SDK
 
-Sign up and get an app token at [app.smooch.io](https://app.smooch.io). Then, in `application:didFinishLaunchingWithOptions:`
+Sign up and get an app ID at [app.smooch.io](https://app.smooch.io). Then, in `application:didFinishLaunchingWithOptions:`
 
 ```objc
 #import "SmoochHelpKit.h"
 
-SHKSettings* settings = [SHKSettings settingsWithAppToken:@"YOUR_APP_TOKEN"];
+SHKSettings* settings = [SHKSettings settingsWithAppId:@"YOUR_APP_ID"];
 [SmoochHelpKit initWithSettings:settings];
 ```
 
